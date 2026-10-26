@@ -1,5 +1,5 @@
 #!/bin/bash
-echo -e -n "Biztosan le akarod kapcsolni? Valakinek oda kell mennie és megnyomni a gombot!\n[y/n] "
+echo -e -n "You are about to shut this computer down! Do you really want to do that?\n[y/n] "
 read reply
 
 if [ "$reply" = y -o "$reply" = Y ]
@@ -7,5 +7,5 @@ then
   $1 ${@:2}
 else
   $1 -c
-  echo "shutdown elhalasztva!"
+  echo "Shutdown cancelled!"
 fi
