@@ -36,6 +36,6 @@ tested on debian 12 and ubuntu 24.04.4
 if something feels off these are the things I look at first.\
 for temperatures and fan speeds needs the `lm-sensors` package to be installed!
 
-![screenshot](./whatswrong/screenshot6.png)
+![screenshot](./whatswrong.sh/screenshot6.png)
 
 tested on ubuntu 22.04.4 and 25.10
